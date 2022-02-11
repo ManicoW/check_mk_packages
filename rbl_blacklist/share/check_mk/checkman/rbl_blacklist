@@ -1,0 +1,17 @@
+title: RBL_Blacklist
+author: Nicolas Lafont <n.dev@wdmedia.net>, based on work of Lars Falk-Petersen <dev@falk-petersen.no> and Robert Sander <r.sander@heinlein-support.de>
+description:
+ Plugin to check a host IPs against RBL blacklist. You need
+ to install the plugin {rbl_blacklist.py}
+ into the {plugins} directory of your agent.
+
+ The check gets warning if at least one of the host IPs is listed on the DNSBL.
+ 
+ https://github.com/ManicoW/check_mk_packages
+license: GPL
+distribution: CRE
+agents: linux
+item: 
+ Item is the name of checked DNSBL.
+inventory:
+ One item for each DNSBL. 
