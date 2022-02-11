@@ -1,10 +1,8 @@
 {'author': 'Nicolas Lafont <n.dev@wdmedia.net>',
  'description': 'Plugin to check a host IPs against RBL blacklist'
                 '\n'
-                'Require python netifaces module\n'
-                '\n'
                 'Now with multiple IPs support\n',
- 'download_url': 'https://github.com/ManicoW/check_mk_packages',
+ 'download_url': 'https://github.com/ManicoW/check_mk_packages/tree/main/rbl_blacklist',
  'files': {'agent_based': ['rbl_blacklist.py'],
            'agents': ['plugins/rbl_blacklist.py'],
            'checkman': ['rbl_blacklist']},

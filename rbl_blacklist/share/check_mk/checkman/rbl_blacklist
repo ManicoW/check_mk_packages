@@ -6,8 +6,8 @@ description:
  into the {plugins} directory of your agent.
 
  The check gets warning if at least one of the host IPs is listed on the DNSBL.
- 
- https://github.com/ManicoW/check_mk_packages
+
+ https://github.com/ManicoW/check_mk_packages/tree/main/rbl_blacklist
 license: GPL
 distribution: CRE
 agents: linux
